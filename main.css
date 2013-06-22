@@ -1,0 +1,80 @@
+.container {
+  margin: 0 auto;  
+  width: 720px;
+  padding-left: 150px;
+}
+
+nav {
+  position: fixed;
+  width: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #CCCCCC;
+  border-right: 3px solid #BBBBBB;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+}
+
+nav ul li a {
+  display: none;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  line-height: 35px;
+  display: block;
+  border-bottom: 1px solid #BBBBBB;
+  padding-left: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
+header, div.content, div.footer {
+  margin: 30px auto 30px 60px;
+}
+
+div#nav-tab {
+  position: fixed;
+  width: 40px;
+  height:105px;
+  border-right: 3px solid #BBBBBB;
+  border-top: 3px solid #BBBBBB;
+  border-bottom: 3px solid #BBBBBB;
+  background-color: #CCCCCC;
+  top: 34px;
+  left: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+div#nav-tab a {
+  position: relative; 
+  top: 45px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+    /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+div#nav-tab a:hover {
+  color: #AAAAAA;
+}
+
